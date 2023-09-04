@@ -1,0 +1,133 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background: linear-gradient(#fdfdfd, #9198e5);
+  font-family: cursive, sans-serif;
+}
+
+.app-container {
+  padding: 40px;
+  border: 2px solid #3498db;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  width: 600px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #000000;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  font-family: cursive, sans-serif;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: cursive, sans-serif;
+}
+.input {
+  display: flex;
+  gap: 15px;
+}
+.list_items {
+  display: flex;
+}
+.select_options {
+  margin-left: 10%;
+  width: 65%;
+}
+
+.input button {
+  height: 41px;
+  margin-left: 47px;
+  margin-top: 20px;
+}
+.input_label {
+  width: 78%;
+}
+
+.ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.amount {
+  font-weight: normal;
+}
+.results {
+  margin-top: 20px;
+}
+
+.result-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.result-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  width: 520px;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 15px;
+}
+.results {
+  display: flex;
+  justify-content: center;
+}
+
+.result-column {
+  flex: 1;
+  max-width: 400px;
+  padding: 10px;
+}
+
+.result-column .heading {
+  font-weight: bold;
+}
+
+.result-column span:not(:first-child) {
+  display: block;
+  margin-top: 5px;
+}
